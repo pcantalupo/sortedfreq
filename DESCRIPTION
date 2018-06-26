@@ -1,0 +1,12 @@
+Package: sortedfreq
+Type: Package
+Title: Display a descending frequency of values
+Version: 0.1.0
+Author: Paul Cantalupo
+Maintainer: The package maintainer <pcantalupo@gmail.com>
+Description: Calculates the frequency of a set of values.
+    Returns the list of values and their frequency sorted descending by frequency.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
