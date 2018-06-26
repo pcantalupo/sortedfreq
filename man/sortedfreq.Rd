@@ -14,6 +14,9 @@ sortedfreq(df, colname)
 \description{
 This function determines the frequency of a set of values. Returns the values and their frequencies. Values are sorted descending by frequency
 }
+\details{
+These are the details
+}
 \examples{
 sortedfreq(mtcars, "carb")
 }

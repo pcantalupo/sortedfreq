@@ -6,6 +6,8 @@
 #' @keywords sorted frequency
 #' @examples
 #' sortedfreq(mtcars, "carb")
+#' @details
+#' These are the details
 sortedfreq = function (df, colname) {
   t = sort(table(df[,colname]), decreasing = T)
   df = data.frame(x = names(t), freq = matrix(t))
